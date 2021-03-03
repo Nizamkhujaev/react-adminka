@@ -1,0 +1,32 @@
+.sidebar{
+    background: #363740;
+    max-height: 100vh;
+    min-height: 100vh;
+    padding: 42px 0;
+    position: fixed ;
+    box-sizing: border-box;
+    left: 0;
+}
+
+.logo{
+    padding-left: 72px;
+    margin-right: 12px;
+}
+
+.logo-holder{
+    display: flex;
+    align-items: center;
+    margin-bottom: 51px;
+}
+
+.logo-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #A4A6B3;
+    opacity: 0.7;
+    text-decoration: none;
+    padding-right: 43px;
+}

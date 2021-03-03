@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 45px 47px 110px;
+    padding: 10px 0;
+
+    &-right{
+        display: flex;
+        align-items: center;
+
+        .personal{
+            display: flex;
+            align-items: center;
+            padding-left: 32px;
+
+            .name{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: right;
+                letter-spacing: 0.2px;
+                color: #252733;
+                margin-right: 14px;
+            }
+        }
+    }
+
+    .icons{
+        padding: 0 32px;
+
+        border-right: 2px solid #DFE0EB;
+
+        .lupa{
+            margin-right: 25px;
+        }
+    }
+}
+
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #252733;
+}

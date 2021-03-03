@@ -1,0 +1,32 @@
+.update{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top:  1px solid #DFE0EB  ;
+
+    label{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #252733;
+    }
+
+    .status{
+        background: #FEC400;
+        border-radius: 8px;
+        padding: 5px 12px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    #Input{
+        margin-right: 16px;
+    }
+}

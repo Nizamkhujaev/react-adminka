@@ -1,0 +1,17 @@
+.overview{
+    display: flex;
+    background: #F7F8FC;
+}
+
+.main-content{
+    width: 100%;
+    padding: 36px 33px 30px 30px;
+    box-sizing: border-box;
+    margin-left: 80px;
+
+    &-bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
